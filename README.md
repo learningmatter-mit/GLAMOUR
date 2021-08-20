@@ -2,9 +2,9 @@
 #### Somesh Mohapatra, Joyce An, Rafael Gómez-Bombarelli
 #### Department of Materials Science and Engineering, Massachusetts Institute of Technology
 
-The repository and the [Tutorial](https://github.mit.edu/MLMat/GLAMOUR/blob/master/Tutorial.ipynb) accompanies [GLAMOUR: Graph Learning over Macromolecule Representations](https://arxiv.org/abs/2103.02565).<br>
+The repository and the [Tutorial](https://github.com/learningmatter-mit/GLAMOUR/blob/main/Tutorial.ipynb) accompanies [GLAMOUR: Graph Learning over Macromolecule Representations](https://arxiv.org/abs/2103.02565).<br>
 
-<img src="https://github.mit.edu/MLMat/GLAMOUR/blob/master/overview.svg" width="100%" height="400"><br>
+<img src="https://github.com/learningmatter-mit/GLAMOUR/blob/main/overview.svg" width="100%" height="400"><br>
 
 In this work, we developed a graph representation for macromolecules. Leveraging this representation, we developed methods for - <br>
 <ul>
