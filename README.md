@@ -23,16 +23,14 @@ conda install pytorch==1.7.1 cudatoolkit=10.1 -c pytorch
 conda install -c conda-forge matplotlib
 conda install -c rdkit rdkit==2018.09.3
 conda install -c dglteam dgl-cuda10.1
-pip install dgllife
+conda install -c dglteam dgllife
 conda install captum -c pytorch
-
-pip install scikit-learn==0.23.2
-pip install networkx
-pip install grakel
-pip install seaborn
-
-pip install svglib
-pip install umap-learn
+conda install -c anaconda scikit-learn==0.23.2
+conda install -c anaconda networkx
+conda install seaborn
+conda install -c conda-forge svglib
+conda install -c conda-forge umap-learn
+conda install -c conda-forge grakel
 ```
 
 If you are new to Anaconda, you can install it from [here](https://www.anaconda.com/).
