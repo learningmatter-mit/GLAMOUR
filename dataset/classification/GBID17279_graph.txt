@@ -1,0 +1,18 @@
+SMILES
+NeuNAc O=C(O)C1(O)O[C@@H]([C@H](O)[C@H](O)CO)[C@H](NC(C)=O)[C@@H](O)C1
+GalOS OC(O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1COS(=O)(O)=O
+GlcNAc CC(N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)OC1O)=O
+GalNAc OC(O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO
+alpha_bond C[C@H](OC)CC
+beta_bond C[C@@H](OC)CC
+ 
+MONOMERS
+1 NeuNAc
+2 GalOS
+3 GlcNAc
+4 GalNAc
+ 
+BONDS
+1 4 alpha_bond
+2 3 beta_bond
+3 4 beta_bond

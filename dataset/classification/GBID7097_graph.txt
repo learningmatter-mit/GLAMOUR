@@ -1,0 +1,17 @@
+SMILES
+Gal OC(O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO
+Fuc C[C@H]1[C@@H](O)[C@@H](O)[C@H](O)C(O)O1
+GalNAc OC(O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO
+beta_bond C[C@@H](OC)CC
+alpha_bond C[C@H](OC)CC
+ 
+MONOMERS
+1 Gal
+2 Fuc
+3 Gal
+4 GalNAc
+ 
+BONDS
+1 4 beta_bond
+2 3 alpha_bond
+3 4 beta_bond

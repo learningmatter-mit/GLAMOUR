@@ -1,0 +1,42 @@
+SMILES
+G C(C(=O)O)N
+S C([C@@H](C(=O)O)N)O
+W C1=CC=C2C(=C1)C(=CN2)C[C@@H](C(=O)O)N
+I CC[C@H](C)[C@@H](C(=O)O)N
+K C(CCN)C[C@@H](C(=O)O)N
+R C(C[C@@H](C(=O)O)N)CN=C(N)N
+L CC(C)C[C@@H](C(=O)O)N
+N C([C@@H](C(=O)O)N)C(=O)N
+AMD N
+AMB CNC(C)=O
+ 
+MONOMERS
+1 G
+2 S
+3 W
+4 I
+5 K
+6 R
+7 L
+8 N
+9 S
+10 W
+11 L
+12 R
+13 K
+14 AMD
+ 
+BONDS
+1 2 AMB
+2 3 AMB
+3 4 AMB
+4 5 AMB
+5 6 AMB
+6 7 AMB
+7 8 AMB
+8 9 AMB
+9 10 AMB
+10 11 AMB
+11 12 AMB
+12 13 AMB
+13 14 AMB

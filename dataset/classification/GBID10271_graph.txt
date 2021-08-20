@@ -1,0 +1,23 @@
+SMILES
+Rha C[C@H]1[C@H](O)[C@@H](O)[C@@H](O)C(O)O1
+Gal OC(O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO
+Glc OC(O1)[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+GlcA O[C@H]1C(O)O[C@H](C(O)=O)[C@@H](O)[C@@H]1O
+GalNAc OC(O1)[C@H](NC(C)=O)[C@@H](O)[C@@H](O)[C@H]1CO
+alpha_bond C[C@H](OC)CC
+beta_bond C[C@@H](OC)CC
+ 
+MONOMERS
+1 Rha
+2 Gal
+3 Glc
+4 GlcA
+5 GalNAc
+6 Gal
+ 
+BONDS
+1 2 alpha_bond
+2 3 beta_bond
+3 4 alpha_bond
+4 5 beta_bond
+5 6 beta_bond

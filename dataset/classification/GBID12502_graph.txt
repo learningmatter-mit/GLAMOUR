@@ -1,0 +1,36 @@
+SMILES
+Gal OC(O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO
+Fuc C[C@H]1[C@@H](O)[C@@H](O)[C@H](O)C(O)O1
+GlcNAc CC(N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)OC1O)=O
+Man OC(O1)[C@@H](O)[C@@H](O)[C@H](O)[C@H]1CO
+beta_bond C[C@@H](OC)CC
+alpha_bond C[C@H](OC)CC
+ 
+MONOMERS
+1 Gal
+2 Fuc
+3 Fuc
+4 GlcNAc
+5 Man
+6 Gal
+7 GlcNAc
+8 Gal
+9 GlcNAc
+10 Man
+11 Man
+12 GlcNAc
+13 GlcNAc
+ 
+BONDS
+1 4 beta_bond
+2 13 alpha_bond
+3 4 alpha_bond
+4 5 beta_bond
+5 11 alpha_bond
+6 7 beta_bond
+7 8 beta_bond
+8 9 beta_bond
+9 10 beta_bond
+10 11 alpha_bond
+11 12 beta_bond
+12 13 beta_bond

@@ -1,0 +1,21 @@
+,Unnamed: 0,ID,Glycan,Link,Species,Immunogenic
+0,7045,GBID6554,GlcNAc(b1-3)Gal(b1-4)GlcNAc,None,,Yes
+1,8015,GBID7560,GalNAcA(a1-4)GalNFoA(a1-3)QuiNAc(a1-3)QuiNAc(b1-3)GalNAcA,None,Vibrio anguillarum,Yes
+2,5023,GBID4460,FucNAcOAc(b1-3)GlcNAcOPyr(a1-4)Gal(a1-4)Gal(b1-3)GlcNAc(b1-2)FucNAcOAc,None,Providencia alcalifaciens,Yes
+3,10635,GBID10271,[Rha(a1-4)]Gal(b1-4)Glc(a1-4)GlcA(b1-3)GalNAc(b1-3)Gal,None,Hafnia alvei,Yes
+4,12195,GBID11897,GalNAc(a1-3)GalNAc(b1-3)Gal(a1-4)Gal(b1-4)Glc,None,,Yes
+5,4683,GBID4109,[Gal(a1-3)Fuc(a1-4)GlcNAc(a1-3)]Fuc(a1-3)FucNAc(b1-4)Fuc,None,Vibrio cholerae,Yes
+6,10367,GBID9992,Fuc(a1-2)Gal(b1-3)GlcNAc,None,"Aeromonas hydrophila, Helicobacter pylori",Yes
+7,12974,GBID12705,GalNAc(b1-3)Gal(b1-4)GlcNAc,None,Neisseria gonorrhoeae,Yes
+8,10690,GBID10330,QuiNBut(b1-6)[Glc(a1-4)]Glc(a1-4)GlcOAcA(b1-3)GlcNAc(a1-2)QuiNBut,None,Hafnia alvei,Yes
+9,11908,GBID11593,Gal(b1-3)GlcNAc(b1-3)Gal(b1-4)[Fuc(a1-3)]GlcNAc,None,,Yes
+10,257,GBID7097,Fuc(a1-2)Gal(b1-3)[Gal(b1-6)]GalNAc,O,Homo sapiens,No
+11,22,GBID531,NeuNAc(a2-6)GalNAc(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)GlcNAc,N,Homo sapiens,No
+12,448,GBID12502,Gal(b1-4)GlcNAc(b1-3)Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Fuc(a1-3)[Gal(b1-4)]GlcNAc(b1-2)Man(a1-6)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,Homo sapiens,No
+13,517,GBID14390,Fuc(a1-2)[GalNAc(a1-3)]Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[Gal(b1-4)GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,Homo sapiens,No
+14,345,GBID9692,Gal(b1-4)GlcNAc(b1-2)Man(a1-3)[GlcNAc(b1-2)Man(a1-6)][GlcNAc(b1-4)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,"Bos taurus, Coturnix japonica, Gallus gallus, Homo sapiens, HumanImmunoDeficiency Virus, Oryctolagus cuniculus",No
+15,657,GBID17668,NeuNAc(a2-3)Gal(b1-4)GlcNAc(b1-6)[Gal(b1-4)GlcNAc(b1-3)]GalNAc,O,Homo sapiens,No
+16,321,GBID8926,Gal(b1-3)GlcNAc(b1-3)Gal(b1-3)[Gal(b1-4)GlcNAc(b1-6)]GalNAc,O,Homo sapiens,No
+17,643,GBID17279,GalOS(b1-4)GlcNAc(b1-3)[NeuNAc(a2-6)]GalNAc,O,Homo sapiens,No
+18,406,GBID11474,Fuc(a1-3)GlcNAc(b1-2)Man(a1-6)[Man(a1-3)]Man(b1-4)GlcNAc(b1-4)[Fuc(a1-6)]GlcNAc,N,Homo sapiens,No
+19,348,GBID9794,Fuc(a1-2)Gal(b1-3)[GlcNAc(b1-6)]GalNAc,O,"Bos taurus, Bufo japonicus, Homo sapiens, Mus musculus, Rana arvalis, Rana palustris, Rana temporaria, Rattus norvegicus, Rhinella arenarum, Sus scrofa, Xenopus laevis, Xenopus tropicalis",No

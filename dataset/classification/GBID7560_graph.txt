@@ -1,0 +1,19 @@
+SMILES
+GalNAcA OC1O[C@H](C(O)=O)[C@H](O)[C@H](O)[C@H]1NC(C)=O
+GalNFoA OC1O[C@H](C(O)=O)[C@H](O)[C@H](O)[C@H]1NC([H])=O
+QuiNAc C[C@@H]1[C@@H](O)[C@H](O)[C@@H](NC(C)=O)C(O)O1
+alpha_bond C[C@H](OC)CC
+beta_bond C[C@@H](OC)CC
+ 
+MONOMERS
+1 GalNAcA
+2 GalNFoA
+3 QuiNAc
+4 QuiNAc
+5 GalNAcA
+ 
+BONDS
+1 2 alpha_bond
+2 3 alpha_bond
+3 4 alpha_bond
+4 5 beta_bond

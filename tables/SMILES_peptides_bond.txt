@@ -1,0 +1,23 @@
+Molecule,SMILES,Description
+AMB,CNC(C)=O,Amide bond
+DCB,CC=CC,Dicarba Bond (carbon-carbon double bond)
+DSB,CSSC,Disulfide Bond
+LAC,CNC(C)=O,Lactam Bond (cyclic amide)
+LCB,COC(C)=O,Lactone Bond (cyclic esters)
+Meta-TolB,CSCC1=C(C)C(CSC)=CC(C(NC)=O)=C1,Meta-Toluoyl double thioether bridge connecting a pair of cysteine residues
+NCB,CNC(C)=O,N-C termini Peptide Bond
+Para-XylB,CSCC1=CC=C(CSC)C=C1,Para-Xylene double thioether bridge connecting a pair of cysteine residues
+TIE,CSC,Thioether Bond
+SMB-1,CCNC(C)=O,carbonyl C to side chain N
+SMB-2,CC(C(C(C(O)=O)NC)NC)=O,beta C to alpha N
+SMB-3,CC(/C(NC)=C/NC)=O,"beta C to alpha N, but with double bond"
+SMB-4,COC(C)=O,carbonyl C to side chain O
+SMB-5,CCC(NC)=O,alpha N to side chain carbonyl C
+SMB-6,CC1SCC(C(C)=O)N1,side chain S to carbonyl C
+SMB-7,CN1C(C)[C@@H](C)CC(C)C1=O,alpha N to side chain C
+NO,CONC,nitrogen-oxygen bond
+Chol-NC,CNCC(OC)=O,Chol nitrogen-carbon bond
+SN,CS(=O)(NC)=O,sulfur-nitrogen bond
+NC-doub,CN=C,nitrogen-carbon double bond
+CO-carb,CC(OC)=O,carbon-oxygen bond at carbonyl carbon
+NC,CNC,nitrogen-carbon single bond

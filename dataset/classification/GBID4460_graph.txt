@@ -1,0 +1,22 @@
+SMILES
+FucNAcOAc C[C@H]1[C@@H](OC(C)=O)[C@@H](O)[C@H](NC(C)=O)C(O)O1
+GlcNAcOPyr OC1O[C@@H]2COC(C(C)=O)OC2[C@@H]([C@H]1NC(C)=O)O
+Gal OC(O1)[C@H](O)[C@@H](O)[C@@H](O)[C@H]1CO
+GlcNAc CC(N[C@@H]1[C@@H](O)[C@H](O)[C@@H](CO)OC1O)=O
+beta_bond C[C@@H](OC)CC
+alpha_bond C[C@H](OC)CC
+ 
+MONOMERS
+1 FucNAcOAc
+2 GlcNAcOPyr
+3 Gal
+4 Gal
+5 GlcNAc
+6 FucNAcOAc
+ 
+BONDS
+1 2 beta_bond
+2 3 alpha_bond
+3 4 alpha_bond
+4 5 beta_bond
+5 6 beta_bond
