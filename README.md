@@ -2,7 +2,7 @@
 #### Somesh Mohapatra, Joyce An, Rafael Gómez-Bombarelli
 #### Department of Materials Science and Engineering, Massachusetts Institute of Technology
 
-The repository and the [Tutorial](https://github.com/learningmatter-mit/GLAMOUR/blob/main/Tutorial.ipynb) accompanies [GLAMOUR: Graph Learning over Macromolecule Representations](https://arxiv.org/abs/2103.02565).<br>
+The repository and the [Tutorial](https://github.com/learningmatter-mit/GLAMOUR/blob/main/Tutorial.ipynb) accompanies [Chemistry-informed Macromolecule Graph Representation for Similarity Computation, Unsupervised and Supervised Learning](https://iopscience.iop.org/article/10.1088/2632-2153/ac545e).<br>
 
 <img src="https://github.com/learningmatter-mit/GLAMOUR/blob/main/overview.svg" width="100%" height="400"><br>
 
@@ -37,18 +37,12 @@ If you are new to Anaconda, you can install it from [here](https://www.anaconda.
 
 ### How to cite
 ```
-@article{GLAMOUR,
-  author    = {Somesh Mohapatra and
-               Joyce An and
-               Rafael G{\'{o}}mez{-}Bombarelli},
-  title     = {Chemistry-informed Macromolecule Graph Representation for Similarity
-               Computation and Supervised Learning},
-  journal   = {CoRR},
-  volume    = {abs/2103.02565},
-  year      = {2021},
-  url       = {https://arxiv.org/abs/2103.02565},
-  archivePrefix = {arXiv},
-  eprint    = {2103.02565},
+@article{mohapatra2022chemistry,
+  title={Chemistry-informed Macromolecule Graph Representation for Similarity Computation, Unsupervised and Supervised Learning},
+  author={Mohapatra, Somesh and An, Joyce and G{\'o}mez-Bombarelli, Rafael},
+  journal={Machine Learning: Science and Technology},
+  year={2022},
+  publisher={IOP Publishing}
 }
 ```
 
