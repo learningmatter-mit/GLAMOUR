@@ -139,12 +139,12 @@ class Attribution:
         color_palette=[cmap(i) for i in np.linspace(0, 1, len(set(self.nodes_list)))]
         return dict(zip(list(set(self.nodes_list)), color_palette))
         
-    def plot_graph(self, dgl_graph, NX_GRAPHS):
+    def plot_graph(self, input_graph, NX_GRAPHS):
         """
         Displays graph of macromolecule with node weights corresponding to node size.
 
         Args:
-        dgl_graph : DGL graph, macromolecule graph 
+        input_graph : input DGL graph, macromolecule graph 
         NX_GRAPHS : dict, dictionary of networkx graphs
         """
         self.dgl_graph = dgl_graph
