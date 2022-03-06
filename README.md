@@ -20,7 +20,7 @@ To use the code with an Anaconda environment, follow the installation procedure 
 conda create -n GLAMOUR python=3.6.12
 conda activate GLAMOUR
 conda install pytorch==1.7.1 cudatoolkit=10.1 -c pytorch
-conda install -c conda-forge matplotlib
+conda install -c conda-forge matplotlib==3.2.2
 conda install -c rdkit rdkit==2018.09.3
 conda install -c dglteam dgl-cuda10.1
 conda install -c dglteam dgllife
