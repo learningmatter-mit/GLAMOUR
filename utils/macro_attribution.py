@@ -147,7 +147,7 @@ class Attribution:
         input_graph : input DGL graph, macromolecule graph 
         NX_GRAPHS : dict, dictionary of networkx graphs
         """
-        self.dgl_graph = dgl_graph
+        self.dgl_graph = input_graph
         self.NX_GRAPHS = NX_GRAPHS
         
         self.get_nodes()
