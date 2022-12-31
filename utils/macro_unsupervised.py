@@ -11,7 +11,7 @@ import umap.umap_ as umap
 import warnings
 warnings.filterwarnings("ignore")
 
-def edit_distance(graph1, graph2, node_attr='h', edge_attr='e', upper_bound=100, indel_mul=3, sub_mul=3):
+def edit_distance(graph1, graph2, node_attr='h', edge_attr='e', upper_bound=100, indel_mul=3, sub_mul=3, distance_type='Rogers-Tanimoto'):
     """
     Calculates exact graph edit distance between 2 graphs.
 
@@ -23,22 +23,28 @@ def edit_distance(graph1, graph2, node_attr='h', edge_attr='e', upper_bound=100,
     upper_bound : int, maximum edit distance to consider
     indel_mul: float, insertion/deletion cost
     sub_mul: float, substitution cost
+    distance_type: str, choice of distance function for dissimilarity
 
     Returns:
     np.float, distance, how similar graph1 is to graph2
     """
+    if distance_type == 'Rogers-Tanimoto':
+        distance_function = distance.rogerstanimoto
+    elif distance_type == 'Jaccard-Needham':
+        distance_function = distance.jaccard
+    
     def node_substitution_scoring(dict_1, dict_2):
         """Calculates node substitution score."""
-        multiplier = sub_mul if distance.rogerstanimoto(
+        multiplier = sub_mul if distance_function(
             dict_1[node_attr], dict_2[node_attr]) != 0 else 0
-        return multiplier*(1 - distance.rogerstanimoto(
+        return multiplier*(distance_function(
             dict_1[node_attr], dict_2[node_attr]))
 
     def edge_substitution_scoring(dict_1, dict_2):
         """Calculates edge substitution score."""
-        multiplier = sub_mul if distance.rogerstanimoto(
+        multiplier = sub_mul if distance_function(
             dict_1[edge_attr], dict_2[edge_attr]) != 0 else 0
-        return multiplier*(1 - distance.rogerstanimoto(
+        return multiplier*(distance_function(
             dict_1[edge_attr], dict_2[edge_attr]))
     
     def constant_value(dict_1):
@@ -109,45 +115,6 @@ def similarity_matrix(dict_graphs, method='kernel', **kwargs):
 
         return matrix
 
-def edit_distance(graph1, graph2, node_attr, edge_attr, upper_bound):
-    """
-    Calculates exact graph edit distance between 2 graphs.
-
-    Args:
-    graph1 : networkx graph, graph with node and edge attributes 
-    graph2 : networkx graph, graph with node and edge attributes 
-    node_attr : str, key for node attribute
-    edge_attr : str, key for edge attribute
-    upper_bound : int, maximum edit distance to consider
-
-    Returns:
-    np.float, distance, how similar graph1 is to graph2
-    """
-    def node_substitution_scoring(dict_1, dict_2):
-        return 1 - distance.rogerstanimoto(
-            dict_1[node_attr], dict_2[node_attr])
-
-    def edge_substitution_scoring(dict_1, dict_2):
-        return 1 - distance.rogerstanimoto(
-            dict_1[edge_attr], dict_2[edge_attr])
-    
-    def constant_value(dict_1):
-        return 5
-
-    graph1 = feature_conversion(graph1, node_attr, edge_attr)
-    graph2 = feature_conversion(graph2, node_attr, edge_attr)
-
-    return min(
-        nx.optimize_graph_edit_distance(
-        graph1, graph2, 
-            node_subst_cost = node_substitution_scoring,
-            edge_subst_cost = edge_substitution_scoring,
-            upper_bound  = upper_bound,
-            node_del_cost = constant_value, 
-            node_ins_cost = constant_value, 
-            edge_del_cost = constant_value, 
-            edge_ins_cost = constant_value, 
-        ))
 
 def dimensionality_reduction(matrix, method, **kwargs):
     """
